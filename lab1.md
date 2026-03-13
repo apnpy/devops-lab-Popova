@@ -257,29 +257,31 @@ Untagged: nginx:alpine
 ## Работа с томами
 
 1. Создала том
-![Uploading image.png…]()
+<img width="888" height="52" alt="image" src="https://github.com/user-attachments/assets/049237ea-d5cc-4a76-8fa3-f7eb9e18b461" />
+
 
 (base) maks_nekrasovmail.ru@Mac ~ % docker volume create my-volume
 my-volume
 
 2. Запустила контейнер с томом
-![Uploading image.png…]()
+<img width="912" height="35" alt="image" src="https://github.com/user-attachments/assets/d221e1dc-4ee7-4944-ab1f-5b5a51d5a75d" />
 
 (base) maks_nekrasovmail.ru@Mac ~ % docker run -it --name volume-test -d -v my-volume:/data ubuntu bash
 f8d9df0dde2ed7389b4bed625b36b135e91f4b6c3701fc0efbf14358e2b82a2b
 
 3. Подключилась к контейнеру
-![Uploading image.png…]()
+<img width="935" height="53" alt="image" src="https://github.com/user-attachments/assets/06ef7592-a645-4818-8619-97ff4c5b5ac2" />
+
 
 (base) maks_nekrasovmail.ru@Mac ~ % docker exec -it volume-test bash
 root@f8d9df0dde2e:/# 
 4. Создала файл в томе
-![Uploading image.png…]()
+<img width="910" height="54" alt="image" src="https://github.com/user-attachments/assets/033ea99d-3c49-408d-906f-ea7c8552f53a" />
 
 root@f8d9df0dde2e:/# echo "Hello from volume" > /data/test.txt
 
 5. Удалила контейнер и создала новый с тем же томом. Проверила наличие файла - файл сохранился.
-![Uploading image.png…]()
+<img width="936" height="90" alt="image" src="https://github.com/user-attachments/assets/fbeda672-a025-481f-8717-71556165ddd1" />
 
 (base) maks_nekrasovmail.ru@Mac ~ % docker stop volume-test
 volume-test
