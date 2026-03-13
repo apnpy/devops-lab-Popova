@@ -1,4 +1,4 @@
-<img width="1440" height="433" alt="image" src="https://github.com/user-attachments/assets/46653deb-d0d0-44f4-a256-e68e8666a608" />## CI/CD для Docker приложения
+## CI/CD для Docker приложения
 
 University: [ITMO University](https://itmo.ru/ru/)
 
