@@ -16,7 +16,7 @@ Lab: Lab1
 
 Date of create: 10.03.2026
 
-Date of finished: 
+Date of finished: 13.03.2026
 
 1. Установила Docker на свой компьютер и перешла в аккаунт
 <img width="959" height="106" alt="image" src="https://github.com/user-attachments/assets/20dfae6b-0198-4b87-8654-32c0ff1f7ed2" />
