@@ -1,4 +1,4 @@
-<img width="1153" height="93" alt="image" src="https://github.com/user-attachments/assets/c06965e7-d0e6-48f7-8dff-afec86d8906a" /><img width="913" height="352" alt="image" src="https://github.com/user-attachments/assets/fe4e89ed-41b2-4aba-a973-0a04a1205f6c" /> ## Лабораторная работа №3 "Мониторинг с Prometheus и Grafana"
+## Лабораторная работа №3 "Мониторинг с Prometheus и Grafana"
 
 University: [ITMO University](https://itmo.ru/ru/)
 
