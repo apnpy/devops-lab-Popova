@@ -135,6 +135,19 @@ markdown_extensions:
 5. Настроила футер
 
 <img width="511" height="543" alt="image" src="https://github.com/user-attachments/assets/af38f1d1-4def-4fe6-92e3-0e041254f75b" />
+## Публикация сайта
+
+1. Создала новый репозиторий - personal-site
+<img width="1440" height="769" alt="image" src="https://github.com/user-attachments/assets/a2804c2f-667c-4f2c-84f1-7ed52418e479" />
+2. Связала локальный проект с удаленным репозиторием
+git remote add origin https://github.com/apnpy/personal-site.git
+git push -u origin main
+
+На данном этапе было много проблем - скрины не сохраниись. Были сложности с подключение к проекту и авторизацией, после того как я создала токен и авторизовалась под ним проблемы ушла
+3. Собрала и опубликовала образ
+mkdocs gh-deploy
+
+Теперь сай доступен по ссылке: https://apnpy.github.io/personal-site/
 
 Итоговый сайт:
 **Главная:**
